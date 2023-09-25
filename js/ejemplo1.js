@@ -13,12 +13,22 @@ var nombres=[];
 var NUMERO_NOMBRES=10;
 
 
+for (var i = 0; i < NUMERO_NOMBRES; i++) {
+    var nombre = prompt("Introduzca un nombre: ");
+    nombres.push(nombre);
+    }
+
+
+
+alert(nombres);
+
+
 
 
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
 /* ERRORES */
-console.error("Mensaje err");
+console.error("Error");
 /* INFORMACIÓN (LOG) */
 console.log("Mensaje log");
 /* DEPURACIÓN (DEBUG) */
